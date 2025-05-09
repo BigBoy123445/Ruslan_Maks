@@ -18,6 +18,7 @@ public class LoginTest extends BaseTest {
                 driver.getCurrentUrl());
     }
 
+
     @Test
     public void unsuccessfulLoginWithInvalidCredentials() {
         LoginPage loginPage = new LoginPage(driver);
